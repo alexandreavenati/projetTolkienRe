@@ -1,0 +1,52 @@
+.container {
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+        &:nth-of-type(1) {
+            div {
+                width: 25%;
+            }
+
+            article {
+                width: 60%;
+            }
+
+            h3::after {
+                content: "La communauté de l'anneau";
+            }
+        }
+
+        &:nth-of-type(2) {
+            text-align: right;
+
+            article {
+                width: 50%;
+            }
+
+            div {
+                width: 30%;
+            }
+
+            h3::after {
+                content: "Les deux tours";
+            }
+        }
+
+        &:nth-of-type(3) {
+            article {
+                width: 60%;
+            }
+
+            div {
+                width: 25%;
+            }
+
+            h3::after {
+                content: "Le retour du roi";
+            }
+        }
+    }
+}
