@@ -22,4 +22,10 @@
 
     </header>
 
+    <main>
+
+        <?php require_once('partial/index-main.php'); ?>
+
+    </main>
+
 </body>

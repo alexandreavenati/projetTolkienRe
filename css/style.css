@@ -64,6 +64,15 @@ header div nav > ul > li:nth-of-type(4) {
   text-align: right;
 }
 
+p {
+  font-family: "Montserrat";
+}
+
+h2,
+h3 {
+  font-family: "MedievalSharp";
+}
+
 * {
   margin: 0;
   padding: 0;
