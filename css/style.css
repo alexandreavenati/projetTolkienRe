@@ -228,15 +228,29 @@ h3::after {
   display: block;
 }
 .container:nth-of-type(4) form > div input {
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
 }
 .container:nth-of-type(4) form > div textarea {
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
 }
 .container:nth-of-type(4) form > div label {
   padding: 5px;
+}
+
+footer div {
+  text-align: center;
+  padding: 15px;
+}
+footer div a {
+  color: white;
+  font-family: "MedievalSharp";
+  font-size: 2rem;
+  text-decoration: none;
+}
+footer div a:hover {
+  text-decoration: underline;
 }
 
 * {

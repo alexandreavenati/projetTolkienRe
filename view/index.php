@@ -28,4 +28,8 @@
 
     </main>
 
+    <footer>
+        <?php require_once('partial/index-footer.php'); ?>
+    </footer>
+
 </body>
