@@ -142,6 +142,79 @@ h3::after {
   content: "Le retour du roi";
 }
 
+.container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.container div:nth-of-type(1) div {
+  width: 25%;
+}
+.container div:nth-of-type(1) article {
+  width: 60%;
+}
+.container div:nth-of-type(1) h3::after {
+  content: "La communauté de l'anneau";
+}
+.container div:nth-of-type(2) {
+  text-align: right;
+}
+.container div:nth-of-type(2) article {
+  width: 50%;
+}
+.container div:nth-of-type(2) div {
+  width: 30%;
+}
+.container div:nth-of-type(2) h3::after {
+  content: "Les deux tours";
+}
+.container div:nth-of-type(3) article {
+  width: 60%;
+}
+.container div:nth-of-type(3) div {
+  width: 25%;
+}
+.container div:nth-of-type(3) h3::after {
+  content: "Le retour du roi";
+}
+
+.container:nth-of-type(3) h2 {
+  text-align: left;
+}
+.container:nth-of-type(3) h3 {
+  color: white;
+}
+.container:nth-of-type(3) > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.container:nth-of-type(3) > section hr {
+  transform: rotate(90deg);
+  width: 10%;
+}
+.container:nth-of-type(3) > section > div {
+  display: block;
+  width: 30%;
+}
+.container:nth-of-type(3) > section > div figure {
+  display: flex;
+  height: 28vh;
+}
+.container:nth-of-type(3) > section > div figure div {
+  display: block;
+  width: 45%;
+}
+.container:nth-of-type(3) > section > div figure div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container:nth-of-type(3) > section h3::after {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
