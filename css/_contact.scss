@@ -1,0 +1,29 @@
+.container:nth-of-type(4) {
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color: white;
+        font-family: "Montserrat";
+        margin-top: 2%;
+
+        >div {
+            display: block;
+
+            input {
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            label {
+                padding: 5px;
+            }
+        }
+    }
+}

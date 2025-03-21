@@ -215,6 +215,30 @@ h3::after {
   display: none;
 }
 
+.container:nth-of-type(4) form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 2%;
+}
+.container:nth-of-type(4) form > div {
+  display: block;
+}
+.container:nth-of-type(4) form > div input {
+  padding: 5px;
+  border-radius: 10px;
+}
+.container:nth-of-type(4) form > div textarea {
+  padding: 5px;
+  border-radius: 10px;
+}
+.container:nth-of-type(4) form > div label {
+  padding: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
